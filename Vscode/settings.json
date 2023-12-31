@@ -1,0 +1,122 @@
+{
+  "editor.multiCursorModifier": "ctrlCmd",
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "liveServer.settings.useBrowserPreview": true,
+  "open-in-browser.default": "/usr/share/man/man1/google-chrome.1.gz",
+  "output.smartScroll.enabled": false,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.errorColor": "Hex(1D3FBE)",
+  "emmet.triggerExpansionOnTab": true,
+  "git.autofetch": true,
+  "files.autoSave": "onFocusChange",
+  "editor.largeFileOptimizations": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "`",
+      "color": "#fe78c9",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#FFFFFF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.semi": false,
+  "prettier.bracketSpacing": false,
+  "explorer.confirmDelete": false,
+  "tabnine.experimentalAutoImports": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.configPath": ".prettierrc",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": false
+  },
+  "python.formatting.provider": "none",
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "editor.fontFamily": "Consola",
+  "window.titleBarStyle": "custom",
+  "window.customMenuBarAltFocus": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "workbench.colorCustomizations": {
+    // "contrastBorder": "#7b3804" nice for high contrast mb
+    // "foreground": "#ff0000"
+  },
+  "indentRainbow.indentSetter": {},
+  "zenMode.hideStatusBar": false,
+  "editor.renderWhitespace": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
