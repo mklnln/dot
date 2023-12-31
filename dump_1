@@ -1,0 +1,72 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom10/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom11/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom12/']
+
+[custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[custom-keybindings/custom0]
+binding='KP_2'
+command='/home/mklnln/code/shortcuts/openFirefox.sh'
+name='Open Firefox'
+
+[custom-keybindings/custom1]
+binding='KP_3'
+command='/home/mklnln/code/shortcuts/openCode.sh'
+name='Open Code'
+
+[custom-keybindings/custom10]
+binding='<Shift>F10'
+command='/home/mklnln/Documents/code/shortcuts/borderShortcut.sh'
+name='border'
+
+[custom-keybindings/custom11]
+binding='KP_Divide'
+command='/home/mklnln/code/shortcuts/openSlack.sh'
+name='Open Slack'
+
+[custom-keybindings/custom12]
+binding='<Primary><Alt><Super>l'
+command='/home/mklnln/code/shortcuts/LinkedInText.sh'
+name='LinkedIn'
+
+[custom-keybindings/custom2]
+binding='KP_4'
+command='/home/mklnln/code/shortcuts/openChrome.sh'
+name='Open Chrome'
+
+[custom-keybindings/custom3]
+binding='<Super>v'
+command='copyq menu'
+name='Open CopyQ'
+
+[custom-keybindings/custom4]
+binding='KP_0'
+command='/home/mklnln/code/shortcuts/openTerminal.sh'
+name='Open Terminal'
+
+[custom-keybindings/custom5]
+binding='KP_9'
+command='/home/mklnln/code/shortcuts/openChromeAndRefresh.sh'
+name='Open and Refresh Chrome'
+
+[custom-keybindings/custom6]
+binding='KP_1'
+command='/home/mklnln/code/shortcuts/openGEdit.sh'
+name='Open GEdit'
+
+[custom-keybindings/custom7]
+binding='<Super>KP_1'
+command='/home/mklnln/code/shortcuts/openAnki.sh'
+name='Open Anki'
+
+[custom-keybindings/custom8]
+binding='F9'
+command='/home/mklnln/code/shortcuts/toggleGray.sh'
+name='Toggle Grayscale'
+
+[custom-keybindings/custom9]
+binding='<Super>Up'
+command='/home/mklnln/Documents/code/shortcuts/upCursorBy10.sh'
+name='Up 10 Lines'

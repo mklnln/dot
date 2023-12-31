@@ -1,0 +1,27 @@
+vimium txt
+
+unmap f
+unmap d
+map d LinkHints.activateMode
+map D LinkHints.activateModeToOpenInNewForegroundTab
+unmap j
+unmap k
+unmap l
+unmap /
+unmap m
+map , scrollUp
+map . scrollDown
+unmap u
+map - scrollPageUp
+map = scrollPageDown
+unmap gT
+unmap gt
+map [ previousTab
+map ] nextTab
+
+map ; goBack
+map ' goForward
+unmap <<
+unmap >>
+unmap p
+map p removeTab
