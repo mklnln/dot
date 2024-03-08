@@ -5,7 +5,7 @@
     "command": "-workbench.view.explorer",
     "when": "viewContainer.workbench.view.explorer.enabled"
   },
-  
+
   {
     "key": "f4",
     "command": "workbench.action.files.save"
@@ -20,7 +20,7 @@
     "when": "textInputFocus"
   },
   {
-    "key": "shift+backspace",
+    "key": "shift+delete",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
@@ -90,5 +90,24 @@
   {
     "key": "ctrl+alt+j",
     "command": "workbench.action.closeAuxiliaryBar"
+  },
+  {
+    "key": "shift+delete",
+    "command": "-deleteFile",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "workbench.action.closeSidebar"
+  },
+  {
+    "key": "alt+\\",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "-editor.action.jumpToBracket",
+    "when": "editorTextFocus"
   }
 ]

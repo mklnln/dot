@@ -1,5 +1,3 @@
-vimium txt
-
 unmap f
 unmap d
 map d LinkHints.activateMode

@@ -102,21 +102,30 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnType": true,
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "python.formatting.provider": "none",
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideTabs": false,
   "editor.fontFamily": "Consola",
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
   "liveServer.settings.CustomBrowser": "chrome",
   "workbench.colorCustomizations": {
-    // "contrastBorder": "#7b3804" nice for high contrast mb
-    // "foreground": "#ff0000"
+    "contrastBorder": "#353d37",
+    "focusBorder": "#b0b0b0",
+    "editor.selectionBackground": "#6d6d6d",
+    "editor.selectionForeground": "#301b1b",
+    "editor.selectionHighlightBackground": "#a5935c",
+    "editor.lineHighlightBorder": "#3b3b3b",
+    "editor.guides.indentation": "true",
+    "editorLineNumber.foreground": "#999999",
+    "editorLineNumber.activeForeground": "#e3e3e3",
+    "editorIndentGuide.activeBackground1": "#b8afaf",
+    "editorIndentGuide.background1": "#3b3b3b"
   },
   "indentRainbow.indentSetter": {},
   "zenMode.hideStatusBar": false,
-  "editor.renderWhitespace": "all",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1
+  // "editor.rulers": [4, 8, 12, 16]
 }
