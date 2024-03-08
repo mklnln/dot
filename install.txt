@@ -1,0 +1,55 @@
+
+sudo apt install git
+sudo apt install code
+
+download VSCode .deb
+sudo apt install ./code_1.87.1-1709685762_amd64.deb 
+
+dont think i need the following 2 commands tbh
+sudo chown -Rv _apt:root /var/cache/apt/archives/partial/
+sudo chmod -Rv 700 /var/cache/apt/archives/partial/
+
+cd Downloads
+sudo apt install ./code_1.87.1-1709685762_amd64.deb 
+
+git clone https://github.com/mklnln/dot.git
+
+sudo apt install gcc
+sudo apt install make
+git clone https://github.com/rvaiya/keyd
+cd keyd
+make && sudo make install
+sudo systemctl enable keyd && sudo systemctl start keyd
+
+* sym links dont work
+cd ~/code/dot
+sudo cp ./default.conf /etc/keyd/default.conf
+
+* ubuntu does not allow for script running fromt he custom keyboard 'commands'. must make a copy of the script in /usr/bin
+cd ~/code/dot/shortcuts
+sudo cp ./*.sh /usr/bin
+
+then in custom keyboard shortcuts, you can call the script with the filename, e.g. openFirefox.sh
+
+need wmctrl to use shortcuts
+sudo apt install wmctrl
+
+
+using ubuntu, need to disable wayland in order to open terminal using a shortcuts
+sudo nano /etc/gdm3/custom.conf
+uncomment line that says #WaylandEnable=false
+
+get obsidian
+https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.8/obsidian_1.5.8_amd64.deb
+
+get syncthing
+sudo apt install curl
+sudo mkdir -p /etc/apt/keyrings
+sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
+
+echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
+
+echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
+
+sudo apt-get update
+sudo apt-get install syncthing
