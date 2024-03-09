@@ -1,6 +1,17 @@
 
 sudo apt install git code gcc make wmctrl curl redshift nodejs npm python3-pip slack gnome-tweaks vlc
 
+connect git
+mkdir ~/.ssh
+cd ~/.ssh
+ssh-keygen -t rsa -C "mkl@uwuntu"
+
+sudo mkdir -p -m 755 /etc/apt/keyrings && wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+
 download VSCode .deb
 sudo apt install ./code_1.87.1-1709685762_amd64.deb 
 
@@ -85,3 +96,5 @@ sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] h
 sudo apt install pgadmin4
 
 get everforest
+
+
