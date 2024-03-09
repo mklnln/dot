@@ -9,6 +9,9 @@ run
 sudo dpkg -i <path-to-package>
 git-credential-manager configure
 
+sudo apt-get install pass
+gpg --gen-key
+
 download VSCode .deb
 sudo apt install ./code_1.87.1-1709685762_amd64.deb 
 
