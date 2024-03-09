@@ -1,4 +1,4 @@
-#!/bin/bash
+the#!/bin/bash
 
 
 

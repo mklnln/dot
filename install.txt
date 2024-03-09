@@ -1,6 +1,5 @@
 
-sudo apt install git
-sudo apt install code
+sudo apt install git code gcc make wmctrl curl redshift nodejs npm python3-pip slack gnome-tweaks vlc
 
 download VSCode .deb
 sudo apt install ./code_1.87.1-1709685762_amd64.deb 
@@ -14,8 +13,6 @@ sudo apt install ./code_1.87.1-1709685762_amd64.deb
 
 git clone https://github.com/mklnln/dot.git
 
-sudo apt install gcc
-sudo apt install make
 git clone https://github.com/rvaiya/keyd
 cd keyd
 make && sudo make install
@@ -32,7 +29,7 @@ sudo cp ./*.sh /usr/bin
 then in custom keyboard shortcuts, you can call the script with the filename, e.g. openFirefox.sh
 
 need wmctrl to use shortcuts
-sudo apt install wmctrl
+sudo apt install 
 
 
 using ubuntu, need to disable wayland in order to open terminal using a shortcuts
@@ -43,7 +40,6 @@ get obsidian
 https://github.com/obsidianmd/obsidian-releases/releases/download/v1.5.8/obsidian_1.5.8_amd64.deb
 
 get syncthing
-sudo apt install curl
 sudo mkdir -p /etc/apt/keyrings
 sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
 
@@ -53,3 +49,39 @@ echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://ap
 
 sudo apt-get update
 sudo apt-get install syncthing
+
+do syncthing stuff
+
+ensure you can update yer dot files, lol
+git config --global user.email "mkl.jhn.nln@gmail.com"
+git config --global user.name "Michael Nolan"
+
+termdown
+download https://bootstrap.pypa.io/get-pip.py
+cd ~/Downloads
+python get-pip.py
+sudo apt install python3-pip
+
+
+Install firefox using APT
+    Uninstall the Snap-Version of Firefox: 
+    sudo snap remove firefox
+
+    sudo add-apt-repository ppa:mozillateam/ppa
+
+echo '
+Package: *
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 1001
+' | sudo tee /etc/apt/preferences.d/mozilla-firefox
+
+echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
+
+sudo apt install firefox
+
+get pgadmin:
+curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+sudo apt install pgadmin4
+
+get everforest
