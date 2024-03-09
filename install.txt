@@ -11,6 +11,10 @@ git-credential-manager configure
 
 sudo apt-get install pass
 gpg --gen-key
+follow the prompts
+pass init <gpg-id>
+where gpg-id is the id you gave in the previous prompt. might need "" around it
+git push origin HEAD should now work
 
 download VSCode .deb
 sudo apt install ./code_1.87.1-1709685762_amd64.deb 
@@ -54,12 +58,17 @@ get syncthing
 sudo mkdir -p /etc/apt/keyrings
 sudo curl -L -o /etc/apt/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
 
+
 echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
 
 echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
 
 sudo apt-get update
 sudo apt-get install syncthing
+
+ sudo systemctl start syncthing@mkl
+
+sudo systemctl enable syncthing@mkl 
 
 do syncthing stuff
 
@@ -100,3 +109,23 @@ https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme
 https://github.com/EliverLara/Nordic?tab=readme-ov-file
 https://www.gnome-look.org/p/1695467/
 
+Soulseek
+download
+then use appiamgelauncher
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt update
+sudo apt install appimagelauncher
+
+screenshot
+put into a script
+nano screenshot.sh
+#!/bin/bash  
+TMPFILE=`mktemp -u /tmp/screenshotclip.XXXXXXXX.png`  
+gnome-screenshot -af $TMPFILE && xclip $TMPFILE -selection clipboard -target image/png; rm $TMPFILE || echo "" 
+
+chmod +x screenshot.sh
+sudo cp ./screenshot.sh /usr/bin/screenshot.sh
+
+remove sound
+sudo mv /usr/share/sounds/freedesktop/stereo/camera-shutter.oga /usr/share/sounds/freedesktop/stereo/camera-shutter-backup.oga
