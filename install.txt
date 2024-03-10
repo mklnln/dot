@@ -135,3 +135,4 @@ curl -sS https://starship.rs/install.sh | sh
 add to .bashrc
 eval "$(starship init bash)"
 
+tiny change
