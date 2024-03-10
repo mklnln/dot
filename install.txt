@@ -129,3 +129,9 @@ sudo cp ./screenshot.sh /usr/bin/screenshot.sh
 
 remove sound
 sudo mv /usr/share/sounds/freedesktop/stereo/camera-shutter.oga /usr/share/sounds/freedesktop/stereo/camera-shutter-backup.oga
+
+install starship
+curl -sS https://starship.rs/install.sh | sh
+add to .bashrc
+eval "$(starship init bash)"
+
