@@ -135,4 +135,8 @@ curl -sS https://starship.rs/install.sh | sh
 add to .bashrc
 eval "$(starship init bash)"
 
-tiny change
+install slack
+https://slack.com/downloads/linux
+cd ~/Downloads
+sudo apt install ./slack
+
