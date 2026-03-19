@@ -1,0 +1,27 @@
+unmap f
+unmap d
+map d LinkHints.activate
+map D LinkHints.activateOpenInNewTab
+unmap j
+unmap k
+unmap l
+unmap /
+unmap m
+map , scrollUp
+map . scrollDown
+unmap u
+unmap -
+map - scrollPageUp
+map = scrollPageDown
+unmap gT
+unmap gt
+map [ previousTab
+map ] nextTab
+
+map ; goBack
+map ' goForward
+unmap <<
+unmap >>
+unmap p
+unmap N
+map p autoCopy keyword="google"
