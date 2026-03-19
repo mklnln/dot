@@ -1,0 +1,309 @@
+[apps/seahorse/listing]
+keyrings-selected=['secret-service:///org/freedesktop/secrets/collection/login']
+
+[apps/seahorse/windows/key-manager]
+height=476
+width=906
+
+[apps/update-manager]
+first-run=false
+launch-count=13
+launch-time=int64 1773671950
+show-details=true
+window-height=400
+window-width=593
+
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/freedesktop/tracker/miner/files/index-single-directories'
+saved-view='/org/freedesktop/tracker/miner/files/index-single-directories'
+show-warning=false
+window-height=500
+window-is-maximized=true
+window-width=748
+
+[com/mattjakeman/ExtensionManager]
+last-used-version='0.5.0'
+
+[com/ubuntu/update-notifier]
+no-show-notifications=true
+release-check-time=uint32 1773671944
+
+[org/freedesktop/tracker/extract]
+text-allowlist=['*.txt', '*.md', '*.mdwn', '.bash_history', '.bashrc']
+
+[org/freedesktop/tracker/miner/files]
+crawling-interval=0
+index-recursive-directories=['/home/mkl/sync', '&DESKTOP', '&DOCUMENTS', '&MUSIC', '&PICTURES', '&VIDEOS', '/home/mkl']
+index-single-directories=['&DOWNLOAD']
+
+[org/gnome/TextEditor]
+last-save-directory='file:///home/mkl'
+
+[org/gnome/baobab/ui]
+is-maximized=false
+window-size=(960, 600)
+
+[org/gnome/control-center]
+last-panel='bluetooth'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/mkl/.config/background'
+picture-uri-dark='file:///home/mkl/.config/background'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'us'), ('xkb', 'ca')]
+sources=[('xkb', 'us'), ('xkb', 'ca')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-animations=true
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox-firefox', 'wine-programs-arobas-music-guitar-pro-8-guitar-pro-8', 'org-gnome-settings', 'gnome-power-panel', 'google-chrome', 'obsidian', 'ca-desrt-dconf-editor', 'code', 'org-gnome-nautilus', 'gnome-printers-panel', 'com-mattjakeman-extensionmanager', 'snapd-desktop-integration-snapd-desktop-integration']
+
+[org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
+application-id='ca.desrt.dconf-editor.desktop'
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-mattjakeman-extensionmanager]
+application-id='com.mattjakeman.ExtensionManager.desktop'
+
+[org/gnome/desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-initial-setup]
+application-id='gnome-initial-setup.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/obsidian]
+application-id='obsidian.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
+application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
+
+[org/gnome/desktop/notifications/application/wine-programs-arobas-music-guitar-pro-8-guitar-pro-8]
+application-id='wine-Programs-Arobas Music-Guitar Pro 8-Guitar Pro 8.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/peripherals/mouse]
+natural-scroll=false
+speed=-1.0
+
+[org/gnome/desktop/peripherals/touchpad]
+click-method='fingers'
+natural-scroll=false
+speed=0.390625
+tap-to-click=false
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Northan_lights_by_mizuno.webp'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.clocks.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Characters.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Super>q']
+move-to-workspace-left=['<Super><Shift>Page_Up', '<Super><Shift><Alt>Left', '<Control><Shift><Alt>Left']
+show-desktop=['<Super>d']
+switch-to-workspace-left=['<Super>Page_Up', '<Super><Alt>Left']
+switch-to-workspace-right=['<Super>Page_Down', '<Super><Alt>Right']
+
+[org/gnome/evince/default]
+continuous=true
+dual-page=false
+dual-page-odd-left=true
+enable-spellchecking=true
+fullscreen=false
+inverted-colors=false
+show-sidebar=true
+sidebar-page='thumbnails'
+sidebar-size=148
+sizing-mode='automatic'
+window-ratio=(1.3284313725490196, 0.71338383838383834)
+zoom=1.5787636363636364
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+show-dependencies=false
+show-whose-processes='user'
+window-height=750
+window-width=1178
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+columns-order=[5]
+sort-col=1
+sort-order=0
+
+[org/gnome/gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=8
+sort-order=0
+
+[org/gnome/mutter]
+edge-tiling=false
+experimental-features=['scale-monitor-framebuffer']
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small-plus'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+
+[org/gnome/portal/filechooser/md.obsidian.Obsidian]
+last-folder-path='/home/mkl/syncthing/Obs-SD'
+
+[org/gnome/portal/filechooser/org.chromium.Chromium]
+last-folder-path='/home/mkl/Downloads'
+
+[org/gnome/portal/filechooser/snap.firefox]
+last-folder-path='/home/mkl/Downloads'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-temperature=uint32 1000
+
+[org/gnome/settings-daemon/plugins/media-keys]
+rotate-video-lock-static=@as []
+terminal=['<Super>Return']
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'just-perfection-desktop@just-perfection']
+favorite-apps=['org.gnome.Terminal.desktop', 'firefox_firefox.desktop', 'code.desktop', 'obsidian.desktop', 'org.gnome.Nautilus.desktop']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='46.0'
+
+[org/gnome/shell/extensions/dash-to-dock]
+app-ctrl-hotkey-1=['<Super>b']
+dash-max-icon-size=50
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+hot-keys=false
+hotkeys-overlay=false
+hotkeys-show-dock=false
+
+[org/gnome/shell/extensions/ding]
+check-x11wayland=true
+
+[org/gnome/shell/extensions/just-perfection]
+support-notifier-showed-version=36
+support-notifier-type=0
+switcher-popup-delay=false
+window-demands-attention-focus=true
+
+[org/gnome/shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+
+[org/gnome/shell/keybindings]
+switch-to-application-1=['<Super>1', '<Super>Return']
+switch-to-application-2=['<Super>2', '<Super>b']
+switch-to-application-3=['<Super>3', '<Super>t']
+switch-to-application-4=['<Super>4', '<Super>o']
+switch-to-application-5=['<Super>5', '<Super>e']
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+sidebar-width=140
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+view-type='grid'
+window-size=(1192, 372)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=160
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1231, 689)
