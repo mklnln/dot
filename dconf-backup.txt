@@ -7,15 +7,15 @@ width=906
 
 [apps/update-manager]
 first-run=false
-launch-count=13
-launch-time=int64 1773671950
+launch-count=15
+launch-time=int64 1776371863
 show-details=true
 window-height=400
 window-width=593
 
 [ca/desrt/dconf-editor]
-saved-pathbar-path='/org/freedesktop/tracker/miner/files/index-single-directories'
-saved-view='/org/freedesktop/tracker/miner/files/index-single-directories'
+saved-pathbar-path='/org/gnome/shell/keybindings/switch-to-application-6'
+saved-view='/org/gnome/shell/keybindings/switch-to-application-6'
 show-warning=false
 window-height=500
 window-is-maximized=true
@@ -26,7 +26,7 @@ last-used-version='0.5.0'
 
 [com/ubuntu/update-notifier]
 no-show-notifications=true
-release-check-time=uint32 1773671944
+release-check-time=uint32 1776162851
 
 [org/freedesktop/tracker/extract]
 text-allowlist=['*.txt', '*.md', '*.mdwn', '.bash_history', '.bashrc']
@@ -39,26 +39,108 @@ index-single-directories=['&DOWNLOAD']
 [org/gnome/TextEditor]
 last-save-directory='file:///home/mkl'
 
+[org/gnome/Totem]
+active-plugins=['save-file', 'screenshot', 'open-directory', 'recent', 'screensaver', 'mpris', 'skipto', 'variable-rate', 'autoload-subtitles', 'movie-properties', 'vimeo', 'rotation', 'apple-trailers']
+subtitle-encoding='UTF-8'
+
 [org/gnome/baobab/ui]
 is-maximized=false
 window-size=(960, 600)
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='keyboard'
 window-state=(980, 640, false)
+
+[org/gnome/deja-dup]
+backend='google'
+prompt-check='2026-04-19T14:11:14.136708Z'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/AudioMixers]
+apps=['echomixer.desktop', 'alsamixergui.desktop', 'gnome-alsamixer.desktop', 'hdajackretask.desktop', 'hdspconf.desktop', 'hdspmixer.desktop', 'jack-mixer.desktop', 'jack_mixer.desktop', 'jackeq.desktop', 'mudita24.desktop', 'rmedigicontrol.desktop', 'qamix.desktop', 'envy24_control.desktop', 'envy24control.desktop']
+categories=['Mixer']
+name='ubuntustudio-mixers.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/AudioProduction]
+apps=['com.github.ovenwerks.studio-controls.desktop', 'ubuntustudio-controls.desktop', 'carla.desktop', 'patchage.desktop', 'aconnectgui.desktop', 'zita-mu1.desktop', 'meterbridge.desktop', 'aconnectgui.desktop', 'gcdmaster.desktop', 'idjc.desktop', 'snc.desktop']
+categories=['Audio', 'Music', 'AudioEditing', 'AudioVideoEditing']
+excluded-apps=['calf.desktop', 'guitarix.desktop', 'jack-rack.desktop', 'jamin.desktop', 'lv2rack.desktop', 'rakarrack.desktop', 'zita-at1.desktop', 'zita-rev1.desktop', 'zynjacku.desktop', 'arpage.desktop', 'dd11-2-gmidi.desktop', 'dd11-split.desktop', 'gmidimonitor-alsa.desktop', 'gmidimonitor-jack.desktop', 'jack-keyboard.desktop', 'mcpdisp.desktop', 'qmidiarp.desktop', 'qmidiroute.desktop', 'org.kde.kdenlive.desktop', 'vkeybd.desktop', 'vkeybd.desktop', 'zonage.desktop', 'echomixer.desktop', 'alsamixergui.desktop', 'gnome-alsamixer.desktop', 'hdajackretask.desktop', 'hdspconf.desktop', 'hdspmixer.desktop', 'jack-mixer.desktop', 'jack_mixer.desktop', 'jackeq.desktop', 'envy24_control.desktop', 'mudita24.desktop', 'rmedigicontrol.desktop', 'qamix.desktop', 'aeolus.desktop', 'ams.desktop', 'amsynth.desktop', 'calf.desktop', 'drumkv1.desktop', 'samplv1.desktop', 'synthv1.desktop', 'foo-yc20.desktop', 'genpo.desktop', 'hexter.desktop', 'nekobee.desktop', 'phasex.desktop', 'qsynth.desktop', 'specimen.desktop', 'yoshimi.desktop', 'zynaddsubfx.desktop', 'zynaddsubfx-alsa.desktop', 'zynaddsubfx-jack.desktop', 'in.lsp_plug.lsp_plugins_comp_delay_mono.desktop', 'in.lsp_plug.lsp_plugins_comp_delay_stereo.desktop', 'in.lsp_plug.lsp_plugins_comp_delay_x2_stereo.desktop', 'in.lsp_plug.lsp_plugins_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_lr.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_mono.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_ms.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_stereo.desktop', 'in.lsp_plug.lsp_plugins_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_gate_lr.desktop', 'in.lsp_plug.lsp_plugins_gate_mono.desktop', 'in.lsp_plug.lsp_plugins_gate_ms.desktop', 'in.lsp_plug.lsp_plugins_gate_stereo.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_lr.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_mono.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_ms.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_stereo.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_lr.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_mono.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_ms.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_stereo.desktop', 'in.lsp_plug.lsp_plugins_impulse_responses_mono.desktop', 'in.lsp_plug.lsp_plugins_impulse_responses_stereo.desktop', 'in.lsp_plug.lsp_plugins_impulse_reverb_mono.desktop', 'in.lsp_plug.lsp_plugins_impulse_reverb_stereo.desktop', 'in.lsp_plug.lsp_plugins_latency_meter.desktop', 'in.lsp_plug.lsp_plugins_limiter_mono.desktop', 'in.lsp_plug.lsp_plugins_limiter_stereo.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x12.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x12_do.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x24.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x24_do.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x48.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x48_do.desktop', 'in.lsp_plug.lsp_plugins_oscillator_mono.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_lr.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_mono.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_ms.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_stereo.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_lr.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_mono.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_ms.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_stereo.desktop', 'in.lsp_plug.lsp_plugins_phase_detector.desktop', 'in.lsp_plug.lsp_plugins_profiler_mono.desktop', 'in.lsp_plug.lsp_plugins_profiler_stereo.desktop', 'in.lsp_plug.lsp_plugins_room_builder_mono.desktop', 'in.lsp_plug.lsp_plugins_room_builder_stereo.desktop', 'in.lsp_plug.lsp_plugins_sampler_mono.desktop', 'in.lsp_plug.lsp_plugins_sampler_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_limiter_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_limiter_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_slap_delay_mono.desktop', 'in.lsp_plug.lsp_plugins_slap_delay_stereo.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x12.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x16.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x1.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x2.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x4.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x8.desktop', 'in.lsp_plug.lsp_plugins_trigger_midi_mono.desktop', 'in.lsp_plug.lsp_plugins_trigger_midi_stereo.desktop', 'in.lsp_plug.lsp_plugins_trigger_mono.desktop', 'in.lsp_plug.lsp_plugins_trigger_stereo.desktop', 'pasystray.desktop', 'net.sourceforge.kid3-qt.desktop', 'jaaa-alsa.desktop', 'jaaa-jack.desktop', 'japa-alsa.desktop', 'japa-jack.desktop', 'gladish.desktop', 'ladi-player.desktop', 'ladi-system-tray.desktop', 'laditray.desktop']
+name='ubuntustudio-audioproduction.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/AudioUtilities]
+apps=['com.github.ovenwerks.studio-controls.desktop', 'ubuntustudio-controls.desktop', 'carla-control.desktop', 'qjackctl.desktop', 'pasystray.desktop', 'gtkguitune.desktop', 'gxtuner.desktop', 'net.sourceforge.kid3-qt.desktop', 'jaaa-alsa.desktop', 'jaaa-jack.desktop', 'japa-alsa.desktop', 'japa-jack.desktop', 'lingot.desktop', 'gladish.desktop', 'ladi-player.desktop', 'ladi-system-tray.desktop', 'laditray.desktop', 'ubuntustudio-audio-config.desktop']
+categories=['Tuner']
+name='ubuntustudio-audio-utility.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Effects]
+apps=['carla.desktop', 'calf.desktop', 'guitarix.desktop', 'jack-rack.desktop', 'jamin.desktop', 'lv2rack.desktop', 'rakarrack.desktop', 'zita-at1.desktop', 'zita-rev1.desktop']
+categories=['Effects']
+name='ubuntustudio-effects.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/GraphicUtility]
+apps=['agave.desktop', 'display-im6.q16.desktop', 'font-manager.desktop', 'displaycal-3dlut-maker.desktop', 'displaycal-apply-profiles.desktop', 'displaycal-curve-viewer.desktop', 'displaycal-profile-info.desktop', 'displaycal.desktop', 'displaycal-scripting-client.desktop', 'displaycal-synthprofile.desktop', 'displaycal-testchart-editor.desktop', 'displaycal-vrml-to-x3d-converter.desktop']
+categories=['Scanning']
+name='ubuntustudio-graphic-utility.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/GraphicsDesign]
+categories=['Graphics', 'Publishing']
+excluded-apps=['agave.desktop', 'evince.desktop', 'entangle.desktop', 'font-manager.desktop', 'ristretto.desktop', 'darktable.desktop', 'rawtherapee.desktop', 'display-im6.q16.desktop', 'display-im6.desktop', 'displaycal-3dlut-maker.desktop', 'displaycal-apply-profiles.desktop', 'displaycal-cureve-viewer.desktop', 'displaycal.desktop', 'displaycal-profile-info.desktop', 'displaycal-scripting-client.desktop', 'displaycal-synthprofile.desktop', 'displaycal-testchart-editor.desktop', 'displaycal-vrml-to-x3d-converter.desktop', 'shotwell.desktop', 'org.kde.digikam.desktop', 'net.damonlynch.rapid_photo_downloader.desktop', 'org.puredata.pd-gui.desktop']
+name='ubuntustudio-graphics.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Instruments]
+apps=['aeolus.desktop', 'ams.desktop', 'amsynth.desktop', 'calf.desktop', 'drumkv1.desktop', 'samplv1.desktop', 'synthv1.desktop', 'foo-yc20.desktop', 'genpo.desktop', 'hexter.desktop', 'nekobee.desktop', 'phasex.desktop', 'qsynth.desktop', 'specimen.desktop', 'yoshimi.desktop', 'zynaddsubfx.desktop', 'zynaddsubfx-alsa.desktop', 'zynaddsubfx-jack.desktop', 'zynaddsubfx-oss.desktop', 'vkeybd.desktop']
+categories=['Synth']
+excluded-apps=['calf.desktop']
+name='ubuntustudio-synths.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/LSPPlugins]
+apps=['in.lsp_plug.lsp_plugins_comp_delay_mono.desktop', 'in.lsp_plug.lsp_plugins_comp_delay_stereo.desktop', 'in.lsp_plug.lsp_plugins_comp_delay_x2_stereo.desktop', 'in.lsp_plug.lsp_plugins_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_lr.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_mono.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_ms.desktop', 'in.lsp_plug.lsp_plugins_dyna_processor_stereo.desktop', 'in.lsp_plug.lsp_plugins_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_gate_lr.desktop', 'in.lsp_plug.lsp_plugins_gate_mono.desktop', 'in.lsp_plug.lsp_plugins_gate_ms.desktop', 'in.lsp_plug.lsp_plugins_gate_stereo.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_lr.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_mono.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_ms.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x16_stereo.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_lr.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_mono.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_ms.desktop', 'in.lsp_plug.lsp_plugins_graph_equalizer_x32_stereo.desktop', 'in.lsp_plug.lsp_plugins_impulse_responses_mono.desktop', 'in.lsp_plug.lsp_plugins_impulse_responses_stereo.desktop', 'in.lsp_plug.lsp_plugins_impulse_reverb_mono.desktop', 'in.lsp_plug.lsp_plugins_impulse_reverb_stereo.desktop', 'in.lsp_plug.lsp_plugins_latency_meter.desktop', 'in.lsp_plug.lsp_plugins_limiter_mono.desktop', 'in.lsp_plug.lsp_plugins_limiter_stereo.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_mb_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_mb_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x12.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x12_do.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x24.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x24_do.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x48.desktop', 'in.lsp_plug.lsp_plugins_multisampler_x48_do.desktop', 'in.lsp_plug.lsp_plugins_oscillator_mono.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_lr.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_mono.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_ms.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x16_stereo.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_lr.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_mono.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_ms.desktop', 'in.lsp_plug.lsp_plugins_para_equalizer_x32_stereo.desktop', 'in.lsp_plug.lsp_plugins_phase_detector.desktop', 'in.lsp_plug.lsp_plugins_profiler_mono.desktop', 'in.lsp_plug.lsp_plugins_profiler_stereo.desktop', 'in.lsp_plug.lsp_plugins_room_builder_mono.desktop', 'in.lsp_plug.lsp_plugins_room_builder_stereo.desktop', 'in.lsp_plug.lsp_plugins_sampler_mono.desktop', 'in.lsp_plug.lsp_plugins_sampler_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_dyna_processor_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_gate_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_limiter_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_limiter_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_compressor_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_expander_stereo.desktop', 'in.lsp_plug.lsp_plugins_slap_delay_mono.desktop', 'in.lsp_plug.lsp_plugins_slap_delay_stereo.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x12.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x16.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x1.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x2.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x4.desktop', 'in.lsp_plug.lsp_plugins_spectrum_analyzer_x8.desktop', 'in.lsp_plug.lsp_plugins_trigger_midi_mono.desktop', 'in.lsp_plug.lsp_plugins_trigger_midi_stereo.desktop', 'in.lsp_plug.lsp_plugins_trigger_mono.desktop', 'in.lsp_plug.lsp_plugins_trigger_stereo.desktop', 'in.lsp_plug.lsp_plugins_mb_gate_ms.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_gate_ms.desktop', 'in.lsp_plug.lsp_plugins_loud_comp_mono.desktop', 'in.lsp_plug.lsp_plugins_mb_gate_mono.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_gate_mono.desktop', 'in.lsp_plug.lsp_plugins_surge_filter_mono.desktop', 'in.lsp_plug.lsp_plugins_mb_gate_lr.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_gate_lr.desktop', 'in.lsp_plug.lsp_plugins_loud_comp_stereo.desktop', 'in.lsp_plug.lsp_plugins_mb_gate_stereo.desktop', 'in.lsp_plug.lsp_plugins_sc_mb_gate_stereo.desktop', 'in.lsp_plug.lsp_plugins_surge_filter_stereo.desktop']
+name='lsp-plugins.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/MIDI]
+apps=['qmidiroute.desktop', 'gmidimonitor-alsa.desktop', 'gmidimonitor-jack.desktop']
+categories=['Midi']
+excluded-apps=['qjackctl.desktop', 'guitarix.desktop', 'gxtuner.desktop', 'lmms.desktop', 'qsynth.desktop', 'non-sequencer.desktop', 'drumkv1.desktop', 'samplv1.desktop', 'synthv1.desktop', 'mscore3.desktop']
+name='ubuntustudio-midi.directory'
+translate=true
 
 [org/gnome/desktop/app-folders/folders/Pardus]
 categories=['X-Pardus-Apps']
 name='X-Pardus-Apps.directory'
 translate=true
 
+[org/gnome/desktop/app-folders/folders/Photography]
+categories=['Photography']
+name='ubuntustudio-photography.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/US-Info]
+apps=['ubuntustudio-installer.desktop', 'ubuntustudio-audio-config.desktop']
+categories=['Documentation']
+name='ubuntustudio-info.directory'
+translate=true
+
 [org/gnome/desktop/app-folders/folders/Utilities]
 apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
 categories=['X-GNOME-Utilities']
 name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/VideoProduction]
+apps=['blender.desktop', 'xjadeo.desktop', 'devede_ng.py.desktop', 'freeshow_freeshow.desktop', 'com.obsproject.Studio.desktop', 'qlcplus.desktop', 'qlcplus-fixtureeditor.desktop', 'org.kde.kdenlive.desktop', 'vokoscreen.desktop', 'openlp.desktop', 'com.cuperino.qprompt.desktop']
+categories=['Video']
+excluded-apps=['carla.desktop', 'carla-control.desktop', 'gtkguitune.desktop', 'jackeq.desktop', 'jack-rack.desktop', 'ladi-system-tray.desktop', 'lingot.desktop', 'envy24_control.desktop', 'brasero.desktop', 'org.gnome.Totem.desktop', 'org.gnome.Cheese.desktop']
+name='ubuntustudio-videoproduction.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/YaST]
@@ -86,7 +168,7 @@ gtk-theme='Yaru-dark'
 icon-theme='Yaru'
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-firefox', 'wine-programs-arobas-music-guitar-pro-8-guitar-pro-8', 'org-gnome-settings', 'gnome-power-panel', 'google-chrome', 'obsidian', 'ca-desrt-dconf-editor', 'code', 'org-gnome-nautilus', 'gnome-printers-panel', 'com-mattjakeman-extensionmanager', 'snapd-desktop-integration-snapd-desktop-integration']
+application-children=['firefox-firefox', 'wine-programs-arobas-music-guitar-pro-8-guitar-pro-8', 'org-gnome-settings', 'gnome-power-panel', 'google-chrome', 'obsidian', 'ca-desrt-dconf-editor', 'code', 'org-gnome-nautilus', 'gnome-printers-panel', 'com-mattjakeman-extensionmanager', 'snapd-desktop-integration-snapd-desktop-integration', 'qbittorrent-arnatious-qbittorrent', 'org-gnome-dejadup']
 
 [org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
 application-id='ca.desrt.dconf-editor.desktop'
@@ -115,11 +197,17 @@ application-id='google-chrome.desktop'
 [org/gnome/desktop/notifications/application/obsidian]
 application-id='obsidian.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-settings]
 application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/notifications/application/qbittorrent-arnatious-qbittorrent]
+application-id='qbittorrent-arnatious_qbittorrent.desktop'
 
 [org/gnome/desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
 application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
@@ -136,9 +224,10 @@ speed=-1.0
 
 [org/gnome/desktop/peripherals/touchpad]
 click-method='fingers'
+disable-while-typing=true
 natural-scroll=false
-speed=0.390625
-tap-to-click=false
+speed=0.42412451361867709
+tap-to-click=true
 two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/privacy]
@@ -147,6 +236,7 @@ recent-files-max-age=-1
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
+lock-enabled=false
 picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/Northan_lights_by_mizuno.webp'
 primary-color='#000000'
@@ -182,6 +272,43 @@ zoom=1.5787636363636364
 [org/gnome/evolution-data-server]
 migrated=true
 
+[org/gnome/file-roller/dialogs/add]
+current-folder='file:///home/mkl/Sync/dump/guitar%20pro/seagullmoine'
+exclude-files=''
+exclude-folders=''
+height=800
+include-files='*'
+no-symlinks=true
+selected-files=['file:///home/mkl/Sync/dump/guitar%20pro/seagullmoine/gp', 'file:///home/mkl/Sync/dump/guitar%20pro/seagullmoine/pdfs']
+update=false
+width=1000
+
+[org/gnome/file-roller/dialogs/last-output]
+height=500
+width=1000
+
+[org/gnome/file-roller/dialogs/new]
+default-extension='.zip'
+encrypt-header=false
+volume-size=104857
+
+[org/gnome/file-roller/file-selector]
+show-hidden=false
+sidebar-size=300
+window-size=(-1, -1)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=615
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=1165
+
 [org/gnome/gnome-system-monitor]
 current-tab='processes'
 show-dependencies=false
@@ -192,7 +319,7 @@ window-width=1178
 [org/gnome/gnome-system-monitor/disktreenew]
 col-6-visible=true
 col-6-width=0
-columns-order=[5]
+columns-order=[6]
 sort-col=1
 sort-order=0
 
@@ -212,8 +339,14 @@ toggle-tiled-right=@as []
 [org/gnome/nautilus/icon-view]
 default-zoom-level='small-plus'
 
+[org/gnome/nautilus/list-view]
+default-column-order=['name', 'size', 'type', 'owner', 'group', 'permissions', 'date_modified', 'date_accessed', 'date_created', 'recency', 'detailed_type']
+default-visible-columns=['name', 'size', 'date_modified']
+use-tree-view=false
+
 [org/gnome/nautilus/preferences]
-default-folder-viewer='icon-view'
+date-time-format='detailed'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
@@ -225,10 +358,10 @@ maximized=true
 last-folder-path='/home/mkl/syncthing/Obs-SD'
 
 [org/gnome/portal/filechooser/org.chromium.Chromium]
-last-folder-path='/home/mkl/Downloads'
+last-folder-path='/home/mkl/Sync/Obs-SD'
 
 [org/gnome/portal/filechooser/snap.firefox]
-last-folder-path='/home/mkl/Downloads'
+last-folder-path='/home/mkl'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=false
@@ -243,9 +376,11 @@ sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'just-perfection-desktop@just-perfection']
-favorite-apps=['org.gnome.Terminal.desktop', 'firefox_firefox.desktop', 'code.desktop', 'obsidian.desktop', 'org.gnome.Nautilus.desktop']
-last-selected-power-profile='power-saver'
+app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'org.gnome.Totem.desktop': <{'position': <1>}>, 'software-properties-drivers.desktop': <{'position': <2>}>, 'org.gnome.Calculator.desktop': <{'position': <3>}>, 'aeolus.desktop': <{'position': <4>}>, 'snap-store_snap-store.desktop': <{'position': <5>}>, 'simple-scan.desktop': <{'position': <6>}>, 'ardour.desktop': <{'position': <7>}>, 'org.gnome.Settings.desktop': <{'position': <8>}>, 'zita-at1.desktop': <{'position': <9>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <10>}>, 'audacity.desktop': <{'position': <11>}>, 'blender.desktop': <{'position': <12>}>, 'org.gnome.Calendar.desktop': <{'position': <13>}>, 'Utilities': <{'position': <14>}>, 'org.gnome.Snapshot.desktop': <{'position': <15>}>, 'carla.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'carla-control.desktop': <{'position': <18>}>, 'ubuntustudio-discourse.desktop': <{'position': <19>}>, 'ubuntustudio-contribute.desktop': <{'position': <20>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <21>}>, 'devede_ng.py.desktop': <{'position': <22>}>, 'dgedit.desktop': <{'position': <23>}>}, {'echomixer.desktop': <{'position': <0>}>, 'envy24control.desktop': <{'position': <1>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <2>}>, 'ffado.org-ffadomixer.desktop': <{'position': <3>}>, 'org.gnome.Nautilus.desktop': <{'position': <4>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <5>}>, 'fluidsynth-dssi.desktop': <{'position': <6>}>, 'fmit.desktop': <{'position': <7>}>, 'geonkick.desktop': <{'position': <8>}>, 'gmidimonitor-alsa.desktop': <{'position': <9>}>, 'gmidimonitor-jack.desktop': <{'position': <10>}>, 'solfege.desktop': <{'position': <11>}>, 'google-chrome.desktop': <{'position': <12>}>, 'wine-Programs-Arobas Music-Guitar Pro 8-Guitar Pro 8.desktop': <{'position': <13>}>, 'guitarix.desktop': <{'position': <14>}>, 'hdajackretask.desktop': <{'position': <15>}>, 'hdspconf.desktop': <{'position': <16>}>, 'hdspmixer.desktop': <{'position': <17>}>, 'ubuntustudio-support.desktop': <{'position': <18>}>, 'hexter.desktop': <{'position': <19>}>, 'org.hydrogenmusic.Hydrogen.desktop': <{'position': <20>}>, 'org.gnome.eog.desktop': <{'position': <21>}>, 'display-im6.q16.desktop': <{'position': <22>}>, 'org.inkscape.Inkscape.desktop': <{'position': <23>}>}, {'jack-keyboard.desktop': <{'position': <0>}>, 'jack_mixer.desktop': <{'position': <1>}>, 'org.kde.k3b.desktop': <{'position': <2>}>, 'org.kde.kdenlive.desktop': <{'position': <3>}>, 'org.kde.kid3-qt.desktop': <{'position': <4>}>, 'gnome-language-selector.desktop': <{'position': <5>}>, 'libreoffice-startcenter.desktop': <{'position': <6>}>, 'libreoffice-calc.desktop': <{'position': <7>}>, 'libreoffice-draw.desktop': <{'position': <8>}>, 'libreoffice-impress.desktop': <{'position': <9>}>, 'libreoffice-math.desktop': <{'position': <10>}>, 'libreoffice-writer.desktop': <{'position': <11>}>, 'lmms.desktop': <{'position': <12>}>, 'wine-Programs-Applied Acoustics Systems-Lounge Lizard EP-4-Lounge Lizard EP-4 (32-bit).desktop': <{'position': <13>}>, 'wine-Programs-Applied Acoustics Systems-Lounge Lizard EP-4-Lounge Lizard EP-4 (64-bit).desktop': <{'position': <14>}>, 'wine-Programs-D16 Group-LuSH-101-LuSH-101 Manual.desktop': <{'position': <15>}>, 'mcpdisp.desktop': <{'position': <16>}>, 'mcpdisp-ext.desktop': <{'position': <17>}>, 'meterbridge.desktop': <{'position': <18>}>, 'com.adrienplazas.Metronome.desktop': <{'position': <19>}>, 'org.kde.minuet.desktop': <{'position': <20>}>, 'org.mixxx.Mixxx.desktop': <{'position': <21>}>, 'mudita24.desktop': <{'position': <22>}>, 'mscore3.desktop': <{'position': <23>}>}, {'com.obsproject.Studio.desktop': <{'position': <0>}>, 'openlp.desktop': <{'position': <1>}>, 'patchance.desktop': <{'position': <2>}>, 'phasex.desktop': <{'position': <3>}>, 'pianobooster.desktop': <{'position': <4>}>, 'org.gnome.PowerStats.desktop': <{'position': <5>}>, 'org.puredata.pd-gui.desktop': <{'position': <6>}>, 'qlcplus.desktop': <{'position': <7>}>, 'qasconfig.desktop': <{'position': <8>}>, 'qashctl.desktop': <{'position': <9>}>, 'qasmixer.desktop': <{'position': <10>}>, 'qbittorrent-arnatious_qbittorrent.desktop': <{'position': <11>}>, 'org.rncbc.qjackctl.desktop': <{'position': <12>}>, 'qlcplus-fixtureeditor.desktop': <{'position': <13>}>, 'qmidiarp.desktop': <{'position': <14>}>, 'org.rncbc.qmidinet.desktop': <{'position': <15>}>, 'qmidiroute.desktop': <{'position': <16>}>, 'com.cuperino.qprompt.desktop': <{'position': <17>}>, 'org.rncbc.qpwgraph.desktop': <{'position': <18>}>, 'org.rncbc.qsynth.desktop': <{'position': <19>}>, 'org.rncbc.qtractor.desktop': <{'position': <20>}>, 'rakarrack.desktop': <{'position': <21>}>, 'raysession.desktop': <{'position': <22>}>, 'cockos-reaper.desktop': <{'position': <23>}>}, {'org.remmina.Remmina.desktop': <{'position': <0>}>, 'ubuntustudio-gnome-apps-reset.desktop': <{'position': <1>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <2>}>, 'rmedigicontrol.desktop': <{'position': <3>}>, 'org.gnome.Shotwell.desktop': <{'position': <4>}>, 'software-properties-gtk.desktop': <{'position': <5>}>, 'update-manager.desktop': <{'position': <6>}>, 'sooperlooper.desktop': <{'position': <7>}>, 'syncthing-start.desktop': <{'position': <8>}>, 'gnome-session-properties.desktop': <{'position': <9>}>, 'usb-creator-gtk.desktop': <{'position': <10>}>, 'org.kitone.subtitleeditor.desktop': <{'position': <11>}>, 'syncthing-ui.desktop': <{'position': <12>}>, 'org.synfig.SynfigStudio.desktop': <{'position': <13>}>, 'org.gnome.TextEditor.desktop': <{'position': <14>}>, 'thunderbird_thunderbird.desktop': <{'position': <15>}>, 'timidity.desktop': <{'position': <16>}>, 'transmission-gtk.desktop': <{'position': <17>}>, 'ubuntustudio-audio-config.desktop': <{'position': <18>}>, 'ubuntustudio-help.desktop': <{'position': <19>}>, 'ubuntustudio-installer.desktop': <{'position': <20>}>, 'ubuntustudio-mail.desktop': <{'position': <21>}>, 'ubuntustudio-chat-support.desktop': <{'position': <22>}>, 'ubuntustudio-website.desktop': <{'position': <23>}>}, {'wine-Programs-Arobas Music-Guitar Pro 8-Uninstall.desktop': <{'position': <0>}>, 'wine-Programs-D16 Group-LuSH-101-Uninstall LuSH-101.desktop': <{'position': <1>}>, 'vkeybd.desktop': <{'position': <2>}>, 'vlc.desktop': <{'position': <3>}>, 'xjadeo.desktop': <{'position': <4>}>, 'yoshimi.desktop': <{'position': <5>}>, 'zita-mu1.desktop': <{'position': <6>}>, 'zita-rev1.desktop': <{'position': <7>}>, 'zynaddsubfx-alsa.desktop': <{'position': <8>}>, 'zynaddsubfx-jack.desktop': <{'position': <9>}>, 'zynaddsubfx-jack-multi.desktop': <{'position': <10>}>, 'zynaddsubfx-oss.desktop': <{'position': <11>}>}]
+disabled-extensions=@as []
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'just-perfection-desktop@just-perfection', 'system-monitor@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['org.gnome.Terminal.desktop', 'firefox_firefox.desktop', 'code.desktop', 'obsidian.desktop', 'wine-Programs-Arobas Music-Guitar Pro 8-Guitar Pro 8.desktop', 'org.gnome.Nautilus.desktop']
+last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='46.0'
 
 [org/gnome/shell/extensions/dash-to-dock]
@@ -267,6 +402,12 @@ support-notifier-type=0
 switcher-popup-delay=false
 window-demands-attention-focus=true
 
+[org/gnome/shell/extensions/system-monitor]
+show-download=false
+show-memory=false
+show-swap=false
+show-upload=false
+
 [org/gnome/shell/extensions/tiling-assistant]
 active-window-hint-color='rgb(211,70,21)'
 last-version-installed=46
@@ -276,8 +417,9 @@ overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.m
 switch-to-application-1=['<Super>1', '<Super>Return']
 switch-to-application-2=['<Super>2', '<Super>b']
 switch-to-application-3=['<Super>3', '<Super>t']
-switch-to-application-4=['<Super>4', '<Super>o']
-switch-to-application-5=['<Super>5', '<Super>e']
+switch-to-application-4=['<Super>4', '<Super>w']
+switch-to-application-5=['<Super>5', '<Super>g']
+switch-to-application-6=['<Super>6', '<Super>e']
 
 [org/gnome/shell/world-clocks]
 locations=@av []
@@ -292,7 +434,7 @@ sort-directories-first=true
 sort-order='ascending'
 type-format='category'
 view-type='grid'
-window-size=(1192, 372)
+window-size=(1192, 655)
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
