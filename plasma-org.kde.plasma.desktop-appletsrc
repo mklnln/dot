@@ -47,7 +47,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][23][Applets][26][Configuration][General]
-launchers=applications:Alacritty.desktop,preferred://browser,applications:vscodium-wayland.desktop,applications:obsidian.desktop
+launchers=applications:Alacritty.desktop,preferred://browser,applications:vscodium-wayland.desktop,applications:wine-Programs-Arobas Music-Guitar Pro 8-Guitar Pro 8.desktop,applications:obsidian.desktop,applications:org.kde.dolphin.desktop
 
 [Containments][23][Applets][27]
 immutability=1
@@ -87,6 +87,10 @@ plugin=org.kde.plasma.devicenotifier
 [Containments][23][Applets][28][Applets][34]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
+
+[Containments][23][Applets][28][Applets][34][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][23][Applets][28][Applets][35]
 immutability=1
@@ -159,6 +163,7 @@ PreviewImage=/usr/share/wallpapers/cachyos-wallpapers/north.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][43]
+ItemGeometries-2226x1252=
 ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 activityId=958571c8-409f-4499-9436-31e7b612b481
@@ -174,8 +179,9 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][43][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/cachyos-wallpapers/Skyscraper.png
+Image=file:///usr/share/wallpapers/cachyos-wallpapers/GreenFeathers.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=
