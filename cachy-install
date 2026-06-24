@@ -1,0 +1,43 @@
+#!/bin/bash
+
+sudo pacman -S ttf-hack-nerd syncthing obsidian code github-cli python-pip
+systemctl --user enable --now syncthing.service
+
+# must update system first
+sudo pacman -S cachyos-gaming-meta
+sudo pacman -S cachyos-gaming-applications
+
+
+# keyd
+sudo pacman -S gcc make
+mkdir ~/code
+cd ~/code
+git clone https://github.com/rvaiya/keyd
+cd keyd
+make && sudo make install
+sudo systemctl enable --now keyd
+wget -O text.txt https://raw.githubusercontent.com/mklnln/dot/refs/heads/main/default.conf
+cat text.txt | sudo tee /etc/keyd/default.conf
+sudo keyd reload
+
+# can press delete in alt+tab switcher
+# /usr/share/kwin-wayland/tabbox/thumbnail_grid/contents/ui/main.qml
+sudo cp ~/code/dot/main.qml /usr/share/kwin-wayland/tabbox/thumbnail_grid/contents/ui/main.qml
+# restart to take effect
+kwin_wayland --replace &
+
+# save KDE settings
+
+sudo pacman -S python-pipx
+pipx install konsave
+cd ~/code/dot
+rm ./mkl.knsv
+konsave -s mkl
+konsave -e mkl
+
+### import KDE
+konsave -i ~/code/dot/mkl.knsv
+gac 'save KDE settings' && gpoh
+
+# apply
+kquitapp6 plasmashell && kstart plasmashell >/dev/null 2>&1
