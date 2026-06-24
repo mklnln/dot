@@ -1,3 +1,0 @@
-run these in the folder with dump_x files
-
-cat dump_1 | dconf load /org/gnome/settings-daemon/plugins/media-keys/
